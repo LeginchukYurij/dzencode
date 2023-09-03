@@ -1,0 +1,10 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  height: var(--topBarHeight);
+  padding: 15px var(--containerSidePd) 15px var(--leftBarWidth);
+  box-shadow: var(--boxShadow);
+  z-index: 1;
+}

@@ -1,0 +1,19 @@
+.app-layout {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+
+  &__topbar {
+    grid-area: 1 / 1 / 2 / 13;
+  }
+  &__leftbar {
+    grid-area: 2 / 1 / 13 / 2;
+  }
+  &__main {
+    grid-area: 2 / 2 / 13 / 13;
+  }
+}

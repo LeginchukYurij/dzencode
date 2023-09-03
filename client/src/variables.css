@@ -1,0 +1,14 @@
+:root {
+  --leftBarWidth: 300px;
+  --topBarHeight: 72px;
+
+  --containerSidePd: 100px;
+
+  --accent: #88c048;
+  --warning: #e8364f;
+  --bgLight: #f0f3f5;
+  --bgDark: #f0f3f5;
+
+  --boxShadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}

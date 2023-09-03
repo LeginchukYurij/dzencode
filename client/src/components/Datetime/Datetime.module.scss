@@ -1,0 +1,16 @@
+.datetime {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 5px;
+
+  svg {
+    fill: var(--accent);
+  }
+}
